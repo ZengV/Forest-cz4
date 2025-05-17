@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Forest">
+    <link rel="icon" href="./dist/img/icons/favicon.png" type="image/png">
+    <title>Forest - Kontakt</title>
+    <meta name="description"
+        content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi necessitatibus voluptate laboriosam recusandae rerum repellat nam, sunt, voluptas exercitationem, est aspernatur beatae? Aspernatur officiis, nemo minus cum animi sed. Debitis, similique excepturi quibusdam a modi distinctio? Quasi adipisci dolorum voluptatem ab non facere ex? Repellat maxime, fugit possimus expedita fuga at aut adipisci.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+</head>
+
+<body>
+    <nav class="nav">
+    <div class="wrapper nav__container">
+        <a href="/index.html#home" class="nav__company"><img src="./dist/img/icons/christmas-tree.svg" alt="">
+            <span class="nav__name">Forest</span>
+        </a>
+        <button class="burger-btn">
+            <div class="burger-btn__box">
+                <div class="burger-btn__bars"></div>
+            </div>
+        </button>
+        <div class="nav__items">
+            <a href="./index.html#home" class="nav__item">Home</a>
+            <a href="./index.html#about-us" class="nav__item">O nas</a>
+            <a href="./index.html#offer" class="nav__item">Oferta</a>
+            <a href="./contact.html#contact" class="nav__item">Kontakt</a>
+        </div>
+    </div>
+</nav>
+    <section class="contact section" id="contact">
+    <div class="wrapper">
+        <div class="contact__texts">
+            <h3 class="contact__texts-title">kontakt</h3>
+        </div>
+        <div class="contact__row">
+            <div class="contact__location">
+                <p class="contact__texts-text">Znajdziesz nas tutaj</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8469391237277!2d19.892171476905734!3d50.08915251331184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1747487540532!5m2!1spl!2spl"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form class="contact__form">
+                <p class="contact__texts-text">Skontaktuj się z nami</p>
+                <label for="email" class="contact__form-label">Adres e-mail:</label>
+                <input type="text" name="email" id="email" class="contact__form-input">
+                <label for="name" class="contact__form-label">Imię i Nazwisko:</label>
+                <input type="text" name="name" id="name" class="contact__form-input">
+                <label for="message" class="contact__form-label">Wiadomość:</label>
+                <textarea id="message" class="contact__form-textarea"></textarea>
+                <label class="contact__form-check">
+                    <input type="checkbox" name="privacy" class="contact__form-check-box" required>Akceptuję<a href="#"
+                        class="contact__form-check-policy">politykę prywatności</a>
+                </label>
+                <button type="submit" id="contact__form-btn" class="contact__form-btn--disabled">Wyślij</button>
+            </form>
+        </div>
+    </div>
+</section>
+    <footer class="footer">
+    <div class="wrapper">
+        <div class="footer__company"><img src="./dist/img/icons/christmas-tree-footer.svg" alt="">
+            <span class="footer__name">Forest</span>
+        </div>
+
+        <div class="footer__cards-box">
+            <div class="footer__cards-box-card">
+                <p class="footer__cards-box-card-title footer__cards-box--center">O nas</p>
+                <a href="#" class="footer__cards-box-card-link">Historia</a>
+                <a href="#" class="footer__cards-box-card-link">Parki</a>
+                <a href="#" class="footer__cards-box-card-link">Opinie</a>
+            </div>
+            <div class="footer__cards-box-card">
+                <p class="footer__cards-box-card-title footer__cards-box--center">Nasza firma</p>
+                <a href="#" class="footer__cards-box-card-link">Praca</a>
+                <a href="#" class="footer__cards-box-card-link">Kadry</a>
+                <a href="#" class="footer__cards-box-card-link">Zarząd</a>
+            </div>
+            <div class="footer__cards-box-card">
+                <p class="footer__cards-box-card-title footer__cards-box--center">Dokumenty</p>
+                <a href="#" class="footer__cards-box-card-link">Wnioski</a>
+                <a href="#" class="footer__cards-box-card-link">Rezerwacje</a>
+            </div>
+
+        </div>
+        <div class="footer__container-company">
+            <p class="footer__container-company-text"> &copy; <span class="footer__container-company-year"></span>
+                Forest Group Company
+                Ltd.</p>
+        </div>
+    </div>
+</footer>
+    <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>

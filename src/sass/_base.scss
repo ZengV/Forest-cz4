@@ -1,0 +1,29 @@
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 79px;
+	overflow-x: hidden;
+}
+
+body {
+	font-size: 62.5%;
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	padding-top: 80px;
+}
+
+.html--hidden {
+	overflow: hidden;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 85%;
+	height: 100%;
+	max-width: 1300px;
+}
+
+.hero-img {
+	position: relative;
+	background-size: cover;
+	z-index: -2;
+}

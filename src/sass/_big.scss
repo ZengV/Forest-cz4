@@ -1,0 +1,127 @@
+@media (max-width: 1350px) {
+	.section {
+		&__title {
+			padding: 3.5rem;
+		}
+		&__texts {
+			flex-basis: 40%;
+			&-title {
+				font-size: 2.6rem;
+				line-height: 1.2;
+			}
+			&-text {
+				font-size: 1.3rem;
+				line-height: 1.5;
+			}
+		}
+		&__container {
+			align-items: stretch;
+		}
+	}
+	.footer {
+		&__company {
+			left: 13%;
+		}
+		&__cards-box {
+			right: 13%;
+		}
+	}
+}
+
+@media (min-width: 1170px) {
+	.offer {
+		&__cards-box {
+			&--mobile {
+				display: none;
+			}
+		}
+	}
+}
+
+@media (max-width: 1170px) {
+	.banner {
+		&__texts {
+			&-title {
+				padding: 2.5rem 9rem;
+			}
+		}
+	}
+	.footer {
+		&__company {
+			left: 5%;
+		}
+		&__cards-box {
+			right: 5%;
+			&-card {
+				&-link {
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+
+	.offer {
+		&__cards-box {
+			flex-wrap: wrap;
+			&-card {
+				flex: 45%;
+				max-width: 380px;
+				height: 380px;
+				&-title {
+					font-size: 2.2rem;
+				}
+				&-price {
+					font-size: 2.4rem;
+				}
+				&-options {
+					&-option {
+						font-size: 1.1rem;
+					}
+				}
+				&-button {
+					padding: 0.5rem 4.1rem;
+					font-size: 1rem;
+				}
+			}
+		}
+		&__container {
+			&-table {
+				&-desktop {
+					display: none;
+				}
+			}
+		}
+
+		&__cards-box {
+			&-card {
+				transition: background-color 0.3s;
+				&--mobile {
+					height: 430px;
+				}
+				&-button--mobile {
+					top: 37%;
+				}
+				&-info {
+					position: absolute;
+					top: 5%;
+					left: 50%;
+					translate: -50% -50%;
+					font-size: 0.8rem;
+					color: #a0a0a0;
+					&-icon {
+						padding-right: 0.2rem;
+						transform: scaleX(-1);
+					}
+				}
+				&-options {
+					&--mobile {
+						top: 70%;
+					}
+				}
+				&:hover {
+					background-color: #f8f8f8;
+				}
+			}
+		}
+	}
+}

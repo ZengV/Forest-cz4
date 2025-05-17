@@ -1,0 +1,135 @@
+@media (max-width: 575.98px) {
+	.nav {
+		padding: 0 0.5rem;
+		.burger-btn {
+			right: 20px;
+		}
+		&__company {
+			padding: 1.5rem 0rem;
+		}
+	}
+	.header {
+		&__texts {
+			align-items: center;
+			text-align: center;
+		}
+	}
+	.section {
+		&__title {
+			padding: 2.8rem;
+			font-size: 1.8rem;
+		}
+		&__texts {
+			padding: 0 0.5em;
+			&-title {
+				font-size: 2rem;
+			}
+			&-text {
+				font-size: 1.2rem;
+				line-height: 1.4;
+			}
+		}
+		&__box-img {
+			padding: 0 0 0.7rem 0;
+		}
+	}
+	.banner {
+		&__texts {
+			&-title {
+				font-size: 2.2rem;
+				padding: 2rem 3rem;
+				line-height: 1.2;
+			}
+		}
+	}
+	.offer {
+		&__texts {
+			&-text {
+				text-align: center;
+				line-height: 1.2;
+			}
+		}
+		&__cards-box {
+			&-card {
+				min-width: 250px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: flex-start;
+				gap: 1rem;
+				padding-bottom: 2rem;
+				&-options {
+					position: static;
+					translate: none;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					text-align: center;
+				}
+			}
+			&-button {
+				position: static;
+				translate: none;
+				margin-top: auto;
+			}
+		}
+	}
+	.offer {
+		&__cards-box {
+			&-card {
+				&--mobile {
+					padding-bottom: 0;
+				}
+				&-button--mobile {
+					top: 38%;
+				}
+				&-options {
+					&--mobile {
+						padding-top: 2.5rem;
+					}
+				}
+			}
+		}
+	}
+	.contact {
+		&__texts {
+			&-title {
+				font-size: 2.4rem;
+			}
+			&-text {
+				font-size: 1.5rem;
+			}
+		}
+		&__form {
+			&-check {
+				padding: 1.5rem;
+				font-size: 0.8rem;
+			}
+		}
+	}
+}
+
+@media (min-width: 576px) {
+	.nav {
+		padding: 0 3rem;
+		.burger-btn {
+			right: 40px;
+		}
+	}
+}
+
+@media (max-width: 330px) {
+	.banner {
+		&__texts {
+			&-title {
+				padding: 0.9rem 3rem;
+				font-size: 1.7rem;
+			}
+		}
+	}
+	.nav {
+		&__item {
+			font-size: 2.2rem;
+		}
+	}
+}
