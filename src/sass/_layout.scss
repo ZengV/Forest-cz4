@@ -27,7 +27,7 @@
 }
 
 .header {
-	background-image: url('/dist/img/big-j.jpg');
+	background-image: url('../img/big-j.jpg');
 	background-position: center 70%;
 	height: 50vh;
 	.hero-shadow {
@@ -104,7 +104,7 @@
 }
 
 .banner {
-	background-image: url('/dist/img/big-g.jpg');
+	background-image: url('../img/big-g.jpg');
 	background-position: center 45%;
 	height: 33vh;
 	&__texts {
